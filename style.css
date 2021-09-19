@@ -1,0 +1,105 @@
+
+::after{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    overflow-x:hidden;
+    min-height:100vh;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+.bgImg{
+    float:left;
+    background: url('1.png');
+    width:700px;
+    height:650px;
+}
+.logo{
+    position: absolute;
+    width:300px;
+    height:150px;
+    left:20%;
+    top:30%;
+}
+.text{
+    float:left;
+    padding-left: 20px;;
+}
+.logo-1{
+    fill:white;
+}
+.logo-3{
+    width: 50px;
+    height:50px;
+    fill:rgb(29, 155, 240);
+}
+h1{
+    font-size: 400%;
+}
+h2{
+    font-size: 300%;
+}
+.hollow{
+    position: absolute;
+    float:left;
+    top:50%;
+    color:black;
+    right:30%;
+    width:250px;
+    text-decoration: none;
+}
+.hollow1{
+    top:58%;
+    color:black;
+    position: absolute;
+    float:left;
+    right:30%;
+    width:250px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hollow2{
+    top:65%;
+    color:black;
+    position: absolute;
+    float:left;
+    right:32%;
+    width:250px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hollow3{
+    top:70%;
+    color:black;
+    position: absolute;
+    float:left;
+    right:30%;
+    width:250px;
+}
+.hollow4{
+    top:80%;
+    color:black;
+    position: absolute;
+    float:left;
+    right:30%;
+    width:250px;
+}
+.text-color{
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+
+.text1{
+    display: flex;
+}
+
+
+.footer-opt{
+    color: gray;
+    text-decoration: none;
+    padding:3px;
+}
+
